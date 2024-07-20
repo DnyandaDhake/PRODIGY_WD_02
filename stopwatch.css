@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #5a0347;
+    position: absolute;
+    width: 60%;
+    min-width: 500px;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 0;
+    padding-bottom: 60px;
+    border-radius: 15px;
+}
+    
+.timer-display{
+    width: 100%;
+    background: #69b12f;
+    padding: 30px 0;
+    font-family: "serif", serif;
+    color: #1d0629;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    border-radius: 10px 10px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+                rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+                rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, 
+                rgba(0, 0, 0, 0.06) 0px 2px 1px, 
+                
+}
+
+.laps{
+    text-align: center;
+    color: rgb(201, 145, 145);
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.action{
+    width: 85%;
+    margin: 60px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.action button{
+    padding: 10px 20px;
+    background-color: #d3c3c3;
+    color: #141313;
+    border: none;
+    font-family: "serif", sans-serif;
+    font-size: 20px;
+    font-weight: 510;
+    border-radius: 5px;
+    cursor: pointer;
+}
+   
+
+button:hover{
+    background-color:#0d051b ;
+    color: #ffffff;
+    border: 3px solid #b6b6b6;
+    padding: 7px 17px;
+    
+} 
